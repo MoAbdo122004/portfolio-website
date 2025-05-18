@@ -1,4 +1,3 @@
-/* Global Variables */
 :root {
   --primary-color: #4F46E5;
   --secondary-color: #6366F1;
@@ -29,7 +28,6 @@ body {
 
 header {
   background: #fff;
-  padding: 0.5rem 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -57,6 +55,12 @@ header .container {
 .desktop-nav a:hover,
 .desktop-nav a.active {
   color: var(--primary-color);
+}
+
+#menu-toggle{
+background: linear-gradient(rgb(23, 234, 217) 0%, rgb(96, 120, 234) 100%);  padding: 5px;
+border-radius: 10px;
+font-size: 20px;
 }
 
 .hamburger {
@@ -300,7 +304,7 @@ header .container {
 
 .project-card img {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
 }
 
